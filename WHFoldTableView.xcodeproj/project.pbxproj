@@ -14,6 +14,10 @@
 		8FC4401A1E6D3119001A6CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC440181E6D3119001A6CAD /* LaunchScreen.storyboard */; };
 		8FC440251E6D3119001A6CAD /* WHFoldTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC440241E6D3119001A6CAD /* WHFoldTableViewTests.swift */; };
 		8FC440301E6D3119001A6CAD /* WHFoldTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4402F1E6D3119001A6CAD /* WHFoldTableViewUITests.swift */; };
+		8FC440431E6D4723001A6CAD /* WHHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC440421E6D4723001A6CAD /* WHHeaderFooterView.swift */; };
+		8FC440451E6D47B8001A6CAD /* WHHeaderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FC440441E6D47B8001A6CAD /* WHHeaderFooterView.xib */; };
+		8FC440481E6D5E8D001A6CAD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC440461E6D5E8D001A6CAD /* TableViewCell.swift */; };
+		8FC440491E6D5E8D001A6CAD /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FC440471E6D5E8D001A6CAD /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		8FC4402B1E6D3119001A6CAD /* WHFoldTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHFoldTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC4402F1E6D3119001A6CAD /* WHFoldTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHFoldTableViewUITests.swift; sourceTree = "<group>"; };
 		8FC440311E6D3119001A6CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC440421E6D4723001A6CAD /* WHHeaderFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WHHeaderFooterView.swift; sourceTree = "<group>"; };
+		8FC440441E6D47B8001A6CAD /* WHHeaderFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WHHeaderFooterView.xib; sourceTree = "<group>"; };
+		8FC440461E6D5E8D001A6CAD /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8FC440471E6D5E8D001A6CAD /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				8FC4400F1E6D3119001A6CAD /* AppDelegate.swift */,
 				8FC440111E6D3119001A6CAD /* ViewController.swift */,
+				8FC440421E6D4723001A6CAD /* WHHeaderFooterView.swift */,
+				8FC440441E6D47B8001A6CAD /* WHHeaderFooterView.xib */,
 				8FC440131E6D3119001A6CAD /* Main.storyboard */,
 				8FC440161E6D3119001A6CAD /* Assets.xcassets */,
 				8FC440181E6D3119001A6CAD /* LaunchScreen.storyboard */,
 				8FC4401B1E6D3119001A6CAD /* Info.plist */,
+				8FC440461E6D5E8D001A6CAD /* TableViewCell.swift */,
+				8FC440471E6D5E8D001A6CAD /* TableViewCell.xib */,
 			);
 			path = WHFoldTableView;
 			sourceTree = "<group>";
@@ -236,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC4401A1E6D3119001A6CAD /* LaunchScreen.storyboard in Resources */,
+				8FC440491E6D5E8D001A6CAD /* TableViewCell.xib in Resources */,
+				8FC440451E6D47B8001A6CAD /* WHHeaderFooterView.xib in Resources */,
 				8FC440171E6D3119001A6CAD /* Assets.xcassets in Resources */,
 				8FC440151E6D3119001A6CAD /* Main.storyboard in Resources */,
 			);
@@ -263,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC440121E6D3119001A6CAD /* ViewController.swift in Sources */,
+				8FC440481E6D5E8D001A6CAD /* TableViewCell.swift in Sources */,
+				8FC440431E6D4723001A6CAD /* WHHeaderFooterView.swift in Sources */,
 				8FC440101E6D3119001A6CAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

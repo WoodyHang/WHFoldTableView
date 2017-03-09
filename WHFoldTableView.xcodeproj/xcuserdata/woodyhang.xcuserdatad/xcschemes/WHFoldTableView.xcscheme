@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FC4400B1E6D3119001A6CAD"
+               BuildableName = "WHFoldTableView.app"
+               BlueprintName = "WHFoldTableView"
+               ReferencedContainer = "container:WHFoldTableView.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FC4401F1E6D3119001A6CAD"
+               BuildableName = "WHFoldTableViewTests.xctest"
+               BlueprintName = "WHFoldTableViewTests"
+               ReferencedContainer = "container:WHFoldTableView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8FC4402A1E6D3119001A6CAD"
+               BuildableName = "WHFoldTableViewUITests.xctest"
+               BlueprintName = "WHFoldTableViewUITests"
+               ReferencedContainer = "container:WHFoldTableView.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8FC4400B1E6D3119001A6CAD"
+            BuildableName = "WHFoldTableView.app"
+            BlueprintName = "WHFoldTableView"
+            ReferencedContainer = "container:WHFoldTableView.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8FC4400B1E6D3119001A6CAD"
+            BuildableName = "WHFoldTableView.app"
+            BlueprintName = "WHFoldTableView"
+            ReferencedContainer = "container:WHFoldTableView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8FC4400B1E6D3119001A6CAD"
+            BuildableName = "WHFoldTableView.app"
+            BlueprintName = "WHFoldTableView"
+            ReferencedContainer = "container:WHFoldTableView.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

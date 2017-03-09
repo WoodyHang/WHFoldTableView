@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WHHeaderFooterView" customModule="WHFoldTableView" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WHHeaderFooterView" customModule="WHFoldTableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="505" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="伍航" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qk1-IQ-wDX">
+                    <rect key="frame" x="10" y="35" width="35" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_down" translatesAutoresizingMaskIntoConstraints="NO" id="4Al-B2-xkA">
+                    <rect key="frame" x="482" y="38" width="15" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="0U7-hh-DG5"/>
+                        <constraint firstAttribute="width" constant="15" id="meq-Av-TZ2"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4Al-B2-xkA" firstAttribute="centerY" secondItem="qk1-IQ-wDX" secondAttribute="centerY" id="cNg-JE-qzX"/>
+                <constraint firstItem="qk1-IQ-wDX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="g80-oq-d5G"/>
+                <constraint firstItem="qk1-IQ-wDX" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jNE-FC-DIw"/>
+                <constraint firstAttribute="trailing" secondItem="4Al-B2-xkA" secondAttribute="trailing" constant="8" id="rnF-J4-ziI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageVeiw" destination="4Al-B2-xkA" id="trp-Q6-P7I"/>
+                <outlet property="titleLabel" destination="qk1-IQ-wDX" id="hv1-FI-OXN"/>
+            </connections>
+            <point key="canvasLocation" x="-263" y="-63"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_down" width="22" height="22"/>
+    </resources>
+</document>
